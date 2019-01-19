@@ -1,0 +1,100 @@
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Press Start 2P', cursive;
+}
+
+.hr1 {
+	max-width: 120px;
+  border-width: 8px;
+  border-color: rgba(16, 22, 26, 0.9); 
+}
+
+header.startup {
+	background-position: center;
+	background-image: url("mountain.jpg");
+	background-size: cover;
+	height: 100%;
+}
+
+header.startup .hr1 {
+  margin-top: 75px;
+  margin-top: 0 auto; 
+}
+
+/*#h1 {
+	color: blue;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 28px;
+	display: flex;
+	flex-wrap: wrap;
+}*/
+
+/*.my-container {
+	border: 1px solid green;
+}*/
+
+.my-row1 {
+	/*border: 2px solid red;*/
+	height: 585px;
+	align-items: flex-end;
+
+}
+
+.my-row2 {
+	/*border: 2px solid red;*/
+	height: 300px;
+	align-items: center;
+}
+
+strong {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 23px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	text-shadow: 7px 7px 7px black;
+	transition: all 400ms ease-in-out;
+}
+
+.my-col1:hover {
+	transform: scale(1.03);
+}
+
+/*.my-col2 {
+	border: 1px dotted blue;
+}*/
+
+.btn {
+  text-transform: uppercase;
+  font-family: 'Press Start 2P', cursive;
+  padding: 0.5rem 1.5rem
+}
+
+.btn-secondary {
+  border-color: rgba(16, 22, 26, 1); 
+  background-color: rgba(16, 22, 26, 0.9); 
+  transition: all 200ms ease-in-out;
+}
+
+.btn-secondary:hover {
+  transform: scale(1.03);
+  box-shadow: 10px 10px rgba(16, 22, 26, 0.9);
+  background-color: rgba(64, 54, 43, 0.9); 
+  border-color: rgba(64, 54, 43, 0.9;
+} 
+
+
+
+
+
+
+
+
+
+
+
